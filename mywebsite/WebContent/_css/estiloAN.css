@@ -1,0 +1,15 @@
+.imgNG{
+	display: float;
+	margin: 19vh auto;
+	height: 30vh;
+}
+.container-fluid{
+	text-align: center;
+	background-color: #620D05;
+	height: 100vh;
+}
+.negado{
+	margin-top: -15vh;
+	font-size: 10vh;
+	color: red;
+}

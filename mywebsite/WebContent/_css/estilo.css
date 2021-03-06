@@ -1,0 +1,126 @@
+@charset "utf-8";
+@font-face{
+	font-family: 'FonteTitulo';
+	src: url("../_fonts/After Night.ttf");
+}
+@font-face{
+	font-family: 'Umpouco';
+	src: url("../_fonts/EMLATIN6.ttf");
+}
+@font-face{
+	font-family: 'fonteBio';
+	src: url("../_fonts/Urban Elegance Regular2.ttf");
+}
+body {
+	overflow-x: hidden;
+}
+div.col-8 #icones{
+	float: right;
+}
+#topo{
+	position: fixed;
+	background: linear-gradient(0deg, rgba(52,58,64,0) 0%, rgba(52,58,64,1) 69%);
+	padding: 20px 10px 10px 10px;
+	width: 100%;
+	z-index: 2;
+}
+#topo:hover{
+	background-color: rgba(52, 58, 64, 1);
+	transition: .5s;
+}
+#nomeNav{
+	color: white;
+	font-family: FonteTitulo;
+	font-size: 4vw;
+}
+.iconredes{
+	height: 2.9vw;
+}
+li.nav-item{
+	color: white;
+}
+#wee{
+	font-size: 1.5vw;
+	color: white;
+	margin-top: 3vw;
+	margin-right: 1vw;
+	text-align: right;
+}
+#centro{
+	background: url('../_pictures/Foto.jpg') no-repeat;
+	background-size: 100%;
+	background-position: fixed;
+	background-attachment: fixed;
+	background-color: rgba(0, 0, 0, .1);
+	height: 100%;
+}
+#sobre{
+	font-family: Umpouco;
+	color: white;
+	margin: auto;
+	text-shadow: 1px 1px 1px gray;
+	font-size: 5vw;
+}
+#divCentro{
+	padding: 30px;
+	margin: 16vw auto;
+	width: 100%;
+	height: 20vw;
+	
+	background-color: rgba(0, 0, 0, .4);
+}
+#divHistoria{
+	/*margin: -200px auto auto auto;*/
+	background-color: rgba(67,123,112,1);
+	margin-left: 0px 0px 0px 0px;
+	width: 98.82vw;
+	height: 100%;
+	padding: 20px;
+	color: white;
+}
+#divBio{
+	background-color: rgba(67,123,112,1);
+	margin-left: 0px 0px 0px 0px;
+	width: 98.82vw;
+	height: 100%;
+	padding: 0px 50px 50px 20px;
+	color: white;
+}
+#banner{
+	margin: 0vw auto;
+	width: 80vw;
+	display: block; 
+	box-shadow: 3px 3px 5px rgba(0, 0, 0, .2);
+}
+p{
+	font-family: fonteBio;
+	font-size: 1.3vw;
+}
+#rodape{
+	display: both;
+	position: absolute;
+	top: bottom;
+	background-color: rgba(52, 58, 64, 1);
+	width: 100%;
+	height: 100px;
+	color: white;
+}
+#hrodape{
+	margin: auto;
+	font-size: 1vw;
+}
+.bio{
+	font-family: Umpouco;
+	font-size: 3vw;
+}
+#divCertificacao{
+	background-color: rgba(67,123,112,1);
+	width: 98.82vw;
+	padding-left: 20px;
+	color: white;
+}
+#certif{
+	margin: 5vw 22vw;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.3);
+	width: 50vw;
+}
